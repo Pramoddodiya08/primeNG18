@@ -1,0 +1,33 @@
+nav {
+  width: 220px;
+  height: 100%;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  background-color: var(--highlight-color);
+}
+
+.nav-link.active {
+  background-color: #e77c25;
+  color: white;
+}
+
+.nav-link {
+  width: 100%;
+  padding: 13px 10px;
+}
+.nav-link i {
+  font-size: 20px;
+  padding-right: 10px;
+}
+.nav-link:hover {
+  border-left: 4px solid var(--primary-color);
+  border-radius: 5px;
+}
+
+.nav-link a {
+  color: var(--bg-color);
+  text-decoration: none;
+}
+.active {
+  font-weight: bold;
+  color: var(--primary-color) !important;
+}

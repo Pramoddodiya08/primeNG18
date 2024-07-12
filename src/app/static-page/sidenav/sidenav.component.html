@@ -1,0 +1,50 @@
+<nav class="d-flex flex-column align-items-start p-3" style="height: 100%">
+  <div class="nav-link">
+    <a
+      routerLink="/home"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      class="d-flex align-items-center"
+      appCustom
+    >
+      <i class="bi bi-house-door"></i>
+      Home
+    </a>
+  </div>
+  <div class="nav-link">
+    <a
+      routerLink="/about"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      class="d-flex align-items-center"
+      appCustom
+    >
+      <i class="bi bi-file-person"></i>
+      About
+    </a>
+  </div>
+  <div class="nav-link">
+    <a
+      routerLink="/contact"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      class="d-flex align-items-center"
+      appCustom
+    >
+      <i class="bi bi-person-lines-fill"></i>
+      Contact
+    </a>
+  </div>
+  <div class="nav-link">
+    <a
+      routerLink="/privacy"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      class="d-flex align-items-center"
+      appCustom
+    >
+      <i class="bi bi-shield-lock"></i>
+      Privacy
+    </a>
+  </div>
+</nav>
